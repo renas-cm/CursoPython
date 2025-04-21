@@ -1,8 +1,8 @@
-''' Usar para escrever notas '''
+''' Use to write notes '''
 
 
 """
 DocString
 """
 
-#comentario
+#comment

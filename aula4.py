@@ -1,20 +1,20 @@
-# tipos int e float
-# int --> inteiro
-# O tipo int representa qualquer número inteiro
-# positivo ou negativo, sem casas decimais.
+# int and float types
+# int --> integer
+# The int type represents any whole number,
+# positive or negative, without decimal places.
 
-print(11) #int
-print(-11) #int
+print(11) # int
+print(-11) # int
 print(0)
 
-# float -> Numero com ponto flutuante
-# O tipo float reseprenta qualquer numero
-# positivo ou negativo com ponto flutuante
-# float sem sinal é considerado positivo
+# float -> Floating-point number
+# The float type represents any number,
+# positive or negative, with a floating point.
+# A float without a sign is considered positive.
 
 print(1.1)
 print(0.0, -1.5) 
 
-# a função type mostra o tipo que o python atribui a variável
+# The type function shows the type that Python assigns to a variable.
 
-print(type(11), type(0.0), type('Python')) #int
+print(type(11), type(0.0), type('Python')) # int

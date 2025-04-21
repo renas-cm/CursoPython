@@ -1,37 +1,38 @@
 """
-Python = Linguagem de programação
-# Explica que Python é uma linguagem usada para escrever programas (códigos que o computador entende).
+Python = Programming Language
+# Explains that Python is a language used to write programs (code that the computer understands).
 
-Tipo de tipagem = Dinâmica / Forte
-# Tipagem dinâmica: você não precisa declarar o tipo da variável (ex: int, str etc.).
-# Tipagem forte: o Python não converte tipos automaticamente em operações incompatíveis (ex: não soma string com número sem conversão).
+Typing type = Dynamic / Strong
+# Dynamic typing: you don't need to declare the variable type (e.g., int, str, etc.).
+# Strong typing: Python does not automatically convert types in incompatible operations (e.g., it doesn't add a string to a number without conversion).
 
-str -> string -> texto
-# Mostra que o tipo 'str' significa string, que nada mais é do que um texto.
+str -> string -> text
+# Shows that the type 'str' means string, which is nothing more than text.
 
-Strings são textos que estão dentro de aspas
-# Explica que para criar uma string (texto) em Python, usamos aspas simples ou duplas.
+Strings are texts enclosed in quotes
+# Explains that to create a string (text) in Python, we use single or double quotes.
 """
 
-# Aspas simples
-print('Texto com aspas simples')
+# Single quotes
+print('Text with single quotes')
 
-# Aspas Duplas
-print("Texto com aspas duplas")
+# Double quotes
+print("Text with double quotes")
 
-#Escape
-print("Texto \"Escape\"")
+# Escape
+print("Text \"Escape\"")
 
-#r
-print(r"Texto \"com raw\"") 
+# r
+print(r"Text \"with raw\"") 
 
-#f
+# f
+name = "Tulip"
+print(f"Hello, {name}!")
+
 """
-O f no Python é usado para criar f-strings, que são strings formatadas. Isso significa que você pode inserir variáveis ou expressões diretamente dentro do texto de forma prática e elegante.
+The f in Python is used to create f-strings, which are formatted strings. This means you can insert variables or expressions directly into the text in a practical and elegant way.
 
-* O f antes da string indica que ela é formatada.
-* O que estiver entre {} será avaliado como código Python.
-* No exemplo acima, {nome} será substituído por "Tulipa".
+* The f before the string indicates that it is formatted.
+* What is inside {} will be evaluated as Python code.
+* In the example above, {name} will be replaced by "Tulip".
 """
-nome = "Tulipa"
-print(f"Olá, {nome}!")
