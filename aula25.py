@@ -1,7 +1,7 @@
 '''
-Faça um programa que peça ao usuário para digitar um número inteiro,
-informe se este número é par ou ímpar. Caso o usuário não digite um número
-inteiro, informe que não é um número inteiro.
+Write a program that asks the user to enter an integer number,
+informs whether this number is even or odd. If the user does not enter an integer
+number, inform that it is not an integer number.
 '''
 
 number = input('Type a integer number: ')

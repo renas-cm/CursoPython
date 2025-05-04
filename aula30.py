@@ -1,24 +1,25 @@
+word = 'python'
+word_reveal = '*' * len(word)
 
+want_play = input('Do you want to play? ')
 
-word = 'girafa'
-word_reveal = '******'
-
-want_play = input('Do you want to play?')
-
-while word = False
-    trying = input('type the letter:')
-    
-    for i in word:
-        if len(trying) = 1:
-            if trying == i:
-                print('letter found!')
-                word_reveal = word_reveal.replace('*', i)
-                print(word_reveal)
-                if word_reveal == word:
-                    print('you win!')
-                    word_reveal = True
-                    break
+if want_play.lower() == 'yes':
+    while word_reveal != word:
+        trying = input('Type the letter: ')
         
-        else:
-            print('invalid letter')
+        if len(trying) == 1:
+            if trying in word:
+                print('Letter found!')
+                word_reveal = ''.join(
+                    trying if word[i] == trying else word_reveal[i]
+                    for i in range(len(word))
+                )
+                print(word_reveal)
+            else:
+                print('Letter not found.')
             
+            if word_reveal == word:
+                print('You win!')
+                break
+        else:
+            print('Invalid input. Please type a single letter.')
